@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-botao-flat',
   imports: [],
   template: `
-    <button class="btn btn-flat" (click)="limpar()" >Limpar filtro</button>
+    <button class="btn btn-flat" (click)="limpar()" >Limpar filtro {{counter}} </button>
   `,
   styles: `
     .btn{
@@ -32,8 +32,10 @@ import { Component } from '@angular/core';
 })
 export class BotaoFlat {
 
+  counter = 0;
   limpar() {
     console.log("Metodo limpar")
+    this.counter++;
   }
 
 }
