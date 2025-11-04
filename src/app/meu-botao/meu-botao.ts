@@ -8,10 +8,6 @@ import { Component } from '@angular/core';
 
 })
 export class MeuBotao {
-
-  limpar() {
-    console.log("Metodo limpar")
-  }
   filtrar(){
     console.log('filtrar')
   }

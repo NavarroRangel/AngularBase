@@ -15,11 +15,6 @@
 
 }
 
-.btn-flat{
-  background-color: var(--white);
-  border: 1px solid var(--primary-orange);
-  color: var(--primary-orange);
-}
 
 .btn-filled{
   background-color: var(--primary-orange);
