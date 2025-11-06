@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './property-binding.css'
 })
 export class PropertyBinding {
-  text= "Texto do input";
+  text = "Texto do input";
   inputType = 'text';
   inputDisabled = true;
 
@@ -18,7 +18,7 @@ export class PropertyBinding {
     this.inputDisabled = true;
   }
   changeText(){
-    this.text = "mudou!"
+    this.text = "mudou"
   }
   changeInput(){
     if(this.inputType == 'text'){
@@ -27,4 +27,12 @@ export class PropertyBinding {
       this.inputType = 'text';
     }
   }
+  ouvinte(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    console.log(value)
+    this.text = value;
+}
+ logarTexto(){
+   console.log(this.text)
+ }
 }
