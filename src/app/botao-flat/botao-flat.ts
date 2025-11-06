@@ -31,8 +31,8 @@ import { Component } from '@angular/core';
   }`
 })
 export class BotaoFlat {
-
   counter = 0;
+
   limpar() {
     console.log("Metodo limpar")
     this.counter++;
