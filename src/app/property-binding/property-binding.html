@@ -2,4 +2,21 @@
   id="meu-input"
   [value]="text"
   [type]="inputType"
+  [disabled]="inputDisabled"
 />
+
+<button
+  id="botao-habilitado"
+  (click)="changeTheState()"
+>
+  Botao funcionando </button>
+<button
+  id="botao-desabilitado"
+  (click)="desabilitar()"
+>
+  Botao desabilitado </button>
+
+
+<button (click)="changeText()">Mudar texto </button>
+
+<button (click)="changeInput()">Mudar inputType</button>
