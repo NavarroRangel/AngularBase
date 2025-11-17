@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6, p,ul,ol,li,figure,figcaption,blockquote,dl,dd,input,textarea,select,button{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: max(16px,1em + 1vw);
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+img,picture,video,canvas,svg{
+  display: block;
+  max-width: 100%;
+}
+
+ul,ol{
+  list-style: none;
+}
