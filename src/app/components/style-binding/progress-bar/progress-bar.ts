@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './progress-bar.css'
 })
 export class ProgressBar {
-
+  progress: number = 0;
+  aumentarProgresso(){
+    this.progress = Math.min(this.progress + 30,300);
+  }
 }
