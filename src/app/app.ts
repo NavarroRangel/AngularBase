@@ -7,11 +7,12 @@ import {TwoWayDataBinding} from './two-way-data-binding/two-way-data-binding';
 import {DinamicText} from './components/style-binding/dinamic-text/dinamic-text';
 import {ProgressBar} from './components/style-binding/progress-bar/progress-bar';
 import {SquarePopup} from './components/style-binding/square-popup/square-popup';
+import {ActiveButton} from './components/class-binding/active-button/active-button';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ProgressBar, SquarePopup],
+  imports: [ProgressBar, SquarePopup, ActiveButton],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
