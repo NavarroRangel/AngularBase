@@ -8,11 +8,12 @@ import {DinamicText} from './components/style-binding/dinamic-text/dinamic-text'
 import {ProgressBar} from './components/style-binding/progress-bar/progress-bar';
 import {SquarePopup} from './components/style-binding/square-popup/square-popup';
 import {ActiveButton} from './components/class-binding/active-button/active-button';
+import {InvalidInput} from './components/class-binding/invalid-input/invalid-input';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ProgressBar, SquarePopup, ActiveButton],
+  imports: [ProgressBar, SquarePopup, ActiveButton, InvalidInput],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
