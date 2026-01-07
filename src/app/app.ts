@@ -10,11 +10,12 @@ import {SquarePopup} from './components/style-binding/square-popup/square-popup'
 import {ActiveButton} from './components/class-binding/active-button/active-button';
 import {InvalidInput} from './components/class-binding/invalid-input/invalid-input';
 import {SimpleVisibility} from './components/class-binding/simple-visibility/simple-visibility';
+import {CardConsumidor} from './components/exemplo-card/card-consumidor/card-consumidor';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ProgressBar, SquarePopup, ActiveButton, InvalidInput, SimpleVisibility],
+  imports: [ProgressBar, SquarePopup, ActiveButton, InvalidInput, SimpleVisibility, CardConsumidor],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
